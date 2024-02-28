@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-car_data = pd.read_csv(r'C:\Users\carlo\OneDrive\Documentos\Analise de Dados\SPRINT 5\projecto\veiculos-venda\vehicles.csv')
+car_data = pd.read_csv('vehicles.csv')
 
 
 st.header('DASHBOARD -VEICHLES')
