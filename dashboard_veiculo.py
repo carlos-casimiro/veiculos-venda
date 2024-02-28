@@ -18,4 +18,4 @@ if hist_button:
 
 if scatter_button:
     st.write ('criando um scatter para o conjunto de dados de anúncios de vendas de carros')
-    figx = px.scatter(x='price', y='model_year')
+    figx = px.scatter(car_data, x='price', y='model_year')
