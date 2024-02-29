@@ -18,6 +18,6 @@ if hist_button:
 
 if scatter_button:
     st.write ('criando um scatter para o conjunto de dados de anúncios de vendas de carros')
-    fig = px.scatter(x='price', y='model_year')
+    fig = px.scatter(car_data, x='price', y='model_year')
 
     st.plotly_chart(fig, use_container_width=True)
